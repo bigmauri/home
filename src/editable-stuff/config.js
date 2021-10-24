@@ -6,18 +6,18 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Remi",
+  firstName: "Maurizio",
   middleName: "",
-  lastName: "Mestdagh",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Bussi",
+  message: "I love playing Python, Docker and Git. I love playing Chess. I love playing Piano.",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/remimestdagh",
+      url: "https://github.com/atmauriz",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/remi-mestdagh-377961185/",
+      url: "https://www.linkedin.com/in/maurizio-bussi/",
     },
   ],
 };
@@ -42,8 +42,8 @@ const about = {
   imageLink: require("../editable-stuff/picture.jpg"),
   imageSize: 375,
   message:
-    "A last year IT student at University College Ghent. Learning a broad array of skills like object oriented programming, mobile development, webdesign, database engineering, bash scripting... You can find all the details in my resume below! I am passionate about new technologies like AI, VueJS and many more",
-  resume: "https://drive.google.com/file/d/1FLI0pxIDFkVmQu2mJULbIo9jwsE9BXpR/view?usp=sharing",
+    "As a Linux lover, CLI it's my daily bread! I strongly adopted TDD approach during OOP development session, cause 'In test we trust'. I stay updated attending courses about BigData|MapReduce and Docker|K8s journey",
+  resume: "https://drive.google.com/file/d/19CDfdcnvqB-Re12EbhX74MXbZ2nR4EPY/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -54,9 +54,9 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "remimestdagh", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  gitHubUsername: "atmauriz", //i.e."johnDoe12Gh"
+  reposLength: 0,
+  specificRepos: ["python-git", "eagleX", "chessBot", "didactic-octo-memory"],
 };
 
 // Leadership SECTION
@@ -78,8 +78,8 @@ const leadership = {
     },
   ],
   imageSize: {
-    width:"615",
-    height:"450"
+    width:"350",
+    height:"380"
   }
 };
 
@@ -89,23 +89,23 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Docker", value: 88 },
+    { name: "Azure Cloud", value: 80 },
+    { name: "Django/Flask", value: 80 },
+    { name: "JavaScript", value: 70 },
+    { name: "PostgreSql", value: 70 },
+    { name: "MongoDB", value: 65 },
+    { name: "Git", value: 92 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
+    { name: "Team-Building", value: 80 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
+    { name: "Positivity", value: 90 },
+    { name: "Determination", value: 80 },
     { name: "Problem Solving", value: 75 },
     { name: "Empathy", value: 90 },
     { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Love Coding", value: 99 },
   ],
 };
 
@@ -114,23 +114,22 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "remimestdagh@gmail.com",
+    "I'm currently very sutisfied of my current position as Test Automation Python Developer! If you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "maurizio.bussi.mb@gmail.com",
 };
 
 const experiences = {
-  show: false,
-  heading: "Experiences",
+  show: true,
+  heading: "Last Experience",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Software Developer at Reply Concept',
+      companylogo: require('../assets/img/replyconcept.jpeg'),
+      date: 'December 2019 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'TestAutomation with Python | Docker | Git | Azure',
+      date: '[CI/CD] Remote execution on AZURE CLOUD in order to AUTOMATE test cases validation day by day. PYTHON and PYTEST as core of the framework. Maintainer of internal python packages and PIPELINE definitions exploiting the power of DOCKER. Everything was been versioned using GIT with REBASE strategy, code integration based on Pull Requests.',
     },
   ]
 }
