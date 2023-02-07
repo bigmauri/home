@@ -13,7 +13,7 @@ const mainBody = {
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/atmauriz",
+      url: "https://github.com/bigmauri",
     },
     {
       image: "fa-linkedin",
@@ -43,7 +43,8 @@ const about = {
   imageSize: 375,
   message:
     "As a Linux lover, CLI it's my daily bread! I strongly adopted TDD approach during OOP development session, cause 'In test we trust'. I stay updated attending courses about BigData|MapReduce and Docker|K8s journey",
-  resume: "https://drive.google.com/file/d/19CDfdcnvqB-Re12EbhX74MXbZ2nR4EPY/view?usp=sharing",
+//  resume: "https://drive.google.com/file/d/19CDfdcnvqB-Re12EbhX74MXbZ2nR4EPY/view?usp=sharing",
+  resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -54,9 +55,9 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "atmauriz", //i.e."johnDoe12Gh"
+  gitHubUsername: "bigmauri", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: ["python-git", "eagleX", "chessBot", "didactic-octo-memory"],
+  specificRepos: ["python-git", "eagleX"],
 };
 
 // Leadership SECTION
@@ -90,7 +91,7 @@ const skills = {
   hardSkills: [
     { name: "Python", value: 90 },
     { name: "Docker", value: 88 },
-    { name: "Azure Cloud", value: 80 },
+    { name: "Azure DevOps", value: 80 },
     { name: "Django/Flask", value: 80 },
     { name: "JavaScript", value: 70 },
     { name: "PostgreSql", value: 70 },
@@ -114,7 +115,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently very sutisfied of my current position as Test Automation Python Developer! If you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently very satisfied of my current position as Test Automation Python Developer! If you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "maurizio.bussi.mb@gmail.com",
 };
 
